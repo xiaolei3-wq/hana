@@ -1,0 +1,515 @@
+{
+  "scenarios": [
+    {
+      "id": "intro",
+      "name_en": "Introducing Yourself",
+      "name_cn": "自我介绍",
+      "icon": "👋",
+      "character_role": "Friend",
+      "dialogue": [
+        {
+          "turn": 1,
+          "role": "character",
+          "zh": "你好！我是小明。你叫什么名字？",
+          "py": "Nǐ hǎo! Wǒ shì Xiǎo Míng. Nǐ jiào shénme míngzi?",
+          "en": "Hello! I'm Xiao Ming. What's your name?"
+        },
+        {
+          "turn": 2,
+          "role": "user",
+          "zh": "你好！我叫 Alex。",
+          "py": "Nǐ hǎo! Wǒ jiào Alex.",
+          "en": "Hello! My name is Alex."
+        },
+        {
+          "turn": 3,
+          "role": "character",
+          "zh": "Alex，你好！你是哪国人？",
+          "py": "Alex, nǐ hǎo! Nǐ shì nǎ guó rén?",
+          "en": "Alex, hello! Where are you from?"
+        },
+        {
+          "turn": 4,
+          "role": "user",
+          "zh": "我是美国人。",
+          "py": "Wǒ shì Měiguó rén.",
+          "en": "I am American."
+        },
+        {
+          "turn": 5,
+          "role": "character",
+          "zh": "美国！你做什么工作？",
+          "py": "Měiguó! Nǐ zuò shénme gōngzuò?",
+          "en": "America! What do you do?"
+        },
+        {
+          "turn": 6,
+          "role": "user",
+          "zh": "我是老师。很高兴认识你！",
+          "py": "Wǒ shì lǎoshī. Hěn gāoxìng rènshi nǐ!",
+          "en": "I'm a teacher. Nice to meet you!"
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "你好",
+          "py": "nǐ hǎo",
+          "en": "hello"
+        },
+        {
+          "zh": "我叫",
+          "py": "wǒ jiào",
+          "en": "my name is"
+        },
+        {
+          "zh": "我是",
+          "py": "wǒ shì",
+          "en": "I am"
+        },
+        {
+          "zh": "哪国人",
+          "py": "nǎ guó rén",
+          "en": "which country"
+        },
+        {
+          "zh": "什么工作",
+          "py": "shénme gōngzuò",
+          "en": "what job"
+        },
+        {
+          "zh": "再见",
+          "py": "zài jiàn",
+          "en": "goodbye"
+        },
+        {
+          "zh": "名字",
+          "py": "míng zi",
+          "en": "name"
+        },
+        {
+          "zh": "很高兴",
+          "py": "hěn gāoxìng",
+          "en": "very happy"
+        }
+      ]
+    },
+    {
+      "id": "restaurant",
+      "name_en": "Ordering at a Restaurant",
+      "name_cn": "在餐厅点餐",
+      "icon": "🍜",
+      "character_role": "Waiter",
+      "dialogue": [
+        {
+          "turn": 1,
+          "role": "character",
+          "zh": "你好！欢迎光临！请问几位？",
+          "py": "Nǐ hǎo! Huānyíng guānglín! Qǐngwèn jǐ wèi?",
+          "en": "Hello! Welcome! How many people?"
+        },
+        {
+          "turn": 2,
+          "role": "user",
+          "zh": "你好，一个人。",
+          "py": "Nǐ hǎo, yī gè rén.",
+          "en": "Hello, just one person."
+        },
+        {
+          "turn": 3,
+          "role": "character",
+          "zh": "好的，这边请。这是菜单。",
+          "py": "Hǎo de, zhè biān qǐng. Zhè shì càidān.",
+          "en": "This way please. Here's the menu."
+        },
+        {
+          "turn": 4,
+          "role": "user",
+          "zh": "我要一碗面。",
+          "py": "Wǒ yào yī wǎn miàn.",
+          "en": "I want a bowl of noodles."
+        },
+        {
+          "turn": 5,
+          "role": "character",
+          "zh": "好的。要喝什么？",
+          "py": "Hǎo de. Yào hē shénme?",
+          "en": "OK. What would you like to drink?"
+        },
+        {
+          "turn": 6,
+          "role": "user",
+          "zh": "一杯茶，谢谢。",
+          "py": "Yī bēi chá, xièxie.",
+          "en": "A cup of tea, thanks."
+        },
+        {
+          "turn": 7,
+          "role": "character",
+          "zh": "一碗面一杯茶，一共二十五块。",
+          "py": "Yī wǎn miàn yī bēi chá, yígòng èrshíwǔ kuài.",
+          "en": "Noodles and tea, 25 yuan total."
+        },
+        {
+          "turn": 8,
+          "role": "user",
+          "zh": "好的，买单。谢谢！",
+          "py": "Hǎo de, mǎi dān. Xièxie!",
+          "en": "OK, bill please. Thanks!"
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "欢迎光临",
+          "py": "huānyíng guānglín",
+          "en": "welcome"
+        },
+        {
+          "zh": "菜单",
+          "py": "cài dān",
+          "en": "menu"
+        },
+        {
+          "zh": "我要",
+          "py": "wǒ yào",
+          "en": "I want"
+        },
+        {
+          "zh": "多少钱",
+          "py": "duō shao qián",
+          "en": "how much"
+        },
+        {
+          "zh": "好吃",
+          "py": "hǎo chī",
+          "en": "delicious"
+        },
+        {
+          "zh": "买单",
+          "py": "mǎi dān",
+          "en": "pay the bill"
+        },
+        {
+          "zh": "谢谢",
+          "py": "xiè xie",
+          "en": "thank you"
+        },
+        {
+          "zh": "一杯",
+          "py": "yī bēi",
+          "en": "one cup"
+        }
+      ]
+    },
+    {
+      "id": "taxi",
+      "name_en": "Directions & Taxi",
+      "name_cn": "问路和打车",
+      "icon": "🚕",
+      "character_role": "Passerby",
+      "dialogue": [
+        {
+          "turn": 1,
+          "role": "character",
+          "zh": "你好，需要帮忙吗？",
+          "py": "Nǐ hǎo, xūyào bāngmáng ma?",
+          "en": "Hello, do you need help?"
+        },
+        {
+          "turn": 2,
+          "role": "user",
+          "zh": "请问，地铁站怎么走？",
+          "py": "Qǐngwèn, dìtiě zhàn zěnme zǒu?",
+          "en": "Excuse me, how to get to the subway?"
+        },
+        {
+          "turn": 3,
+          "role": "character",
+          "zh": "一直走，然后左转。大概五分钟。",
+          "py": "Yīzhí zǒu, ránhòu zuǒ zhuǎn. Dàgài wǔ fēnzhōng.",
+          "en": "Go straight, turn left. About 5 min."
+        },
+        {
+          "turn": 4,
+          "role": "user",
+          "zh": "谢谢！",
+          "py": "Xièxie!",
+          "en": "Thank you!"
+        },
+        {
+          "turn": 5,
+          "role": "character",
+          "zh": "你好！去哪里？",
+          "py": "Nǐ hǎo! Qù nǎlǐ?",
+          "en": "Hello! Where to?",
+          "speaker": "Driver"
+        },
+        {
+          "turn": 6,
+          "role": "user",
+          "zh": "去天安门，谢谢。",
+          "py": "Qù Tiān'ānmén, xièxie.",
+          "en": "To Tiananmen, thanks.",
+          "speaker": "Driver"
+        },
+        {
+          "turn": 7,
+          "role": "character",
+          "zh": "好的。到了，一共三十块。",
+          "py": "Hǎo de. Dào le, yígòng sānshí kuài.",
+          "en": "OK. Here, 30 yuan.",
+          "speaker": "Driver"
+        },
+        {
+          "turn": 8,
+          "role": "user",
+          "zh": "好的，谢谢师傅！",
+          "py": "Hǎo de, xièxie shīfu!",
+          "en": "OK, thanks driver!",
+          "speaker": "Driver"
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "请问",
+          "py": "qǐng wèn",
+          "en": "excuse me"
+        },
+        {
+          "zh": "怎么走",
+          "py": "zěnme zǒu",
+          "en": "how to get there"
+        },
+        {
+          "zh": "左转",
+          "py": "zuǒ zhuǎn",
+          "en": "turn left"
+        },
+        {
+          "zh": "右转",
+          "py": "yòu zhuǎn",
+          "en": "turn right"
+        },
+        {
+          "zh": "直走",
+          "py": "zhí zǒu",
+          "en": "go straight"
+        },
+        {
+          "zh": "到了",
+          "py": "dào le",
+          "en": "arrived"
+        },
+        {
+          "zh": "停",
+          "py": "tíng",
+          "en": "stop"
+        },
+        {
+          "zh": "谢谢",
+          "py": "xiè xie",
+          "en": "thank you"
+        }
+      ]
+    },
+    {
+      "id": "hotel",
+      "name_en": "Hotel Check-in",
+      "name_cn": "酒店入住",
+      "icon": "🏨",
+      "character_role": "Front Desk",
+      "dialogue": [
+        {
+          "turn": 1,
+          "role": "character",
+          "zh": "您好，欢迎入住！请问您有预订吗？",
+          "py": "Nín hǎo, huānyíng rùzhù! Qǐngwèn nín yǒu yùdìng ma?",
+          "en": "Hello, welcome! Do you have a reservation?"
+        },
+        {
+          "turn": 2,
+          "role": "user",
+          "zh": "你好，我订了一个房间。",
+          "py": "Nǐ hǎo, wǒ dìng le yī gè fángjiān.",
+          "en": "Hello, I booked a room."
+        },
+        {
+          "turn": 3,
+          "role": "character",
+          "zh": "好的，请出示您的护照。",
+          "py": "Hǎo de, qǐng chūshì nín de hùzhào.",
+          "en": "OK, please show your passport."
+        },
+        {
+          "turn": 4,
+          "role": "user",
+          "zh": "给你。",
+          "py": "Gěi nǐ.",
+          "en": "Here you go."
+        },
+        {
+          "turn": 5,
+          "role": "character",
+          "zh": "您的房间在三楼，302。这是房卡。",
+          "py": "Nín de fángjiān zài sān lóu, 302. Zhè shì fáng kǎ.",
+          "en": "Room 302, 3rd floor. Here's the key."
+        },
+        {
+          "turn": 6,
+          "role": "user",
+          "zh": "WiFi密码是什么？",
+          "py": "WiFi mìmǎ shì shénme?",
+          "en": "What's the WiFi password?"
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "预订",
+          "py": "yù dìng",
+          "en": "reservation"
+        },
+        {
+          "zh": "护照",
+          "py": "hù zhào",
+          "en": "passport"
+        },
+        {
+          "zh": "房间",
+          "py": "fáng jiān",
+          "en": "room"
+        },
+        {
+          "zh": "几楼",
+          "py": "jǐ lóu",
+          "en": "which floor"
+        },
+        {
+          "zh": "房卡",
+          "py": "fáng kǎ",
+          "en": "room key"
+        },
+        {
+          "zh": "WiFi密码",
+          "py": "WiFi mìmǎ",
+          "en": "WiFi password"
+        },
+        {
+          "zh": "早餐",
+          "py": "zǎo cān",
+          "en": "breakfast"
+        },
+        {
+          "zh": "退房",
+          "py": "tuì fáng",
+          "en": "check out"
+        }
+      ]
+    },
+    {
+      "id": "shopping",
+      "name_en": "Shopping & Bargaining",
+      "name_cn": "购物砍价",
+      "icon": "🛍️",
+      "character_role": "Vendor",
+      "dialogue": [
+        {
+          "turn": 1,
+          "role": "character",
+          "zh": "来看看！都是好东西！你想买什么？",
+          "py": "Lái kàn kan! Dōu shì hǎo dōngxi! Nǐ xiǎng mǎi shénme?",
+          "en": "Come look! All good stuff! What do you want?"
+        },
+        {
+          "turn": 2,
+          "role": "user",
+          "zh": "这个多少钱？",
+          "py": "Zhège duōshao qián?",
+          "en": "How much is this?"
+        },
+        {
+          "turn": 3,
+          "role": "character",
+          "zh": "这个一百块。很好的质量！",
+          "py": "Zhège yī bǎi kuài. Hěn hǎo de zhìliàng!",
+          "en": "100 yuan. Great quality!"
+        },
+        {
+          "turn": 4,
+          "role": "user",
+          "zh": "太贵了！便宜一点。",
+          "py": "Tài guì le! Piányi yīdiǎn.",
+          "en": "Too expensive! Cheaper please."
+        },
+        {
+          "turn": 5,
+          "role": "character",
+          "zh": "好吧，八十块，最低了！",
+          "py": "Hǎo ba, bāshí kuài, zuì dī le!",
+          "en": "OK, 80 yuan, lowest!"
+        },
+        {
+          "turn": 6,
+          "role": "user",
+          "zh": "五十块可以吗？",
+          "py": "Wǔshí kuài kěyǐ ma?",
+          "en": "How about 50?"
+        },
+        {
+          "turn": 7,
+          "role": "character",
+          "zh": "六十块吧！",
+          "py": "Liùshí kuài ba!",
+          "en": "60 then!"
+        },
+        {
+          "turn": 8,
+          "role": "user",
+          "zh": "好的，我要这个。",
+          "py": "Hǎo de, wǒ yào zhège.",
+          "en": "OK, I'll take it."
+        }
+      ],
+      "vocab": [
+        {
+          "zh": "多少钱",
+          "py": "duō shao qián",
+          "en": "how much"
+        },
+        {
+          "zh": "太贵了",
+          "py": "tài guì le",
+          "en": "too expensive"
+        },
+        {
+          "zh": "便宜一点",
+          "py": "piányi yīdiǎn",
+          "en": "a bit cheaper"
+        },
+        {
+          "zh": "可以",
+          "py": "kě yǐ",
+          "en": "OK / can"
+        },
+        {
+          "zh": "我要这个",
+          "py": "wǒ yào zhège",
+          "en": "I want this one"
+        },
+        {
+          "zh": "付款",
+          "py": "fù kuǎn",
+          "en": "pay"
+        },
+        {
+          "zh": "好的",
+          "py": "hǎo de",
+          "en": "OK"
+        },
+        {
+          "zh": "不要",
+          "py": "bú yào",
+          "en": "don't want"
+        }
+      ]
+    }
+  ]
+}
